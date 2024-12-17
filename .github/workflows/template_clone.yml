@@ -1,7 +1,6 @@
 name: Repository Template Initializer
 
-on:
-  create:
+on: create
 
 jobs:
   configure-repo:
