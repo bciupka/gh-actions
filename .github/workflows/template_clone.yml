@@ -16,7 +16,7 @@ jobs:
             echo "Error: GH_TOKEN is not set."
             exit 1
           fi
-          declare -A TEMPLATES=(["rpa-"]="https://github.com/tdj-it/tdj_internal_python_rpa_vm_template.git" ["backend-"]="https://github.com/tdj-it/node-backend-template.git")
+          declare -A TEMPLATES=(["rpa-"]="https://github.com/bciupka/postgres-training.git" ["backend-"]="https://github.com/bciupka/nosqlTodoApps.git")
           TEMPLATE=""
           for prefix in "${!TEMPLATES[@]}"; do
             if [[ "$REPO_NAME" == "$prefix"* ]]; then
