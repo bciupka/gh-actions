@@ -1,6 +1,6 @@
 name: Repository Template Initializer
 
-on: create
+on: fork
 
 jobs:
   configure-repo:
