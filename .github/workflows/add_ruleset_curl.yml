@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: add
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_CREATION_TOKEN }}
         run: |
           curl -L \
           -X POST \
