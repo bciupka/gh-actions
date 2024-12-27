@@ -7,8 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: add
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -L \
           -X POST \
